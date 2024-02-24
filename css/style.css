@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: #02668d;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 24px 0;
+    border: 1px solid #E6E6E6;
+}
+
+.header_link {
+    margin-left: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    text-transform: uppercase;
+}
+
+.header_link:hover {
+    color: #00A4E5;
+}
+
+.section {
+    margin: 57px 0 120px;
+}
+
+.sections_title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+    position: relative;
+}
+
+.about_me_col-sm {
+    width: 30%;
+}
+
+.about_me_col-lg {
+    width: 63%;
+}
+
+.about_me_desc-bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    margin-bottom: 30px;
+}
+
+.about_me_desc-bold span {
+    color: #00A4E5;
+}
+
+.about_me_desc-light {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+.hobby_col-sm {
+    width: 30%;
+}
+
+.hobby_col-lg {
+    padding-left: 50px;
+    width: 31%;
+}
+
+.hobby_col-lg2 {
+    width: 31%;
+}
+
+.hobby_title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 68px;
+    position: relative;
+}
+
+.hobby_desc {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+.contucts_col-sm {
+    padding-left: 140px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.contucts_col-lg {
+    width: 39%;
+    margin-bottom: 40px;
+}
+
+.contucts_btn {
+    width: 25%;
+    height: 40px;
+    border: 0;
+    background: #00A4E5;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.links {
+    text-decoration: underline;
+    color: #00A4E5;
+}
